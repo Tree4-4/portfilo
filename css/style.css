@@ -26,12 +26,24 @@ body {
 
 #mainSection2 {
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
-.myButton {
+#footerSection {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgba(36, 30, 30, 0.815);
+}
+
+
+.btn {
     margin-top: 20px;
     margin-left: 20px;
+}
+
+.n-t {
+    text-decoration: none;
 }
 
 
@@ -67,10 +79,10 @@ body {
 
 
 .p-1 {
-    color: black;
-    background-color: #ffffffe7;
-    border: 5px solid #ffffffd5;
-    border-radius: 30%;
+    color: white;
+    background-color: cadetblue;
+    border: 3px solid black;
+    border-radius: 35%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -88,6 +100,7 @@ body {
     border: 1px solid  rgb(255, 239, 239);
     background-color: rgb(255, 239, 239);
     border-radius:  5px;
+    text-decoration: none;
 }
 
 .nav-link1:hover {
@@ -121,4 +134,13 @@ body {
     margin-left: 20px;
     margin-top: 10px;
 }
+
+.footer-box {
+    /*background-color: #f8f8f8;*/
+    font-size: 100%;
+    margin-top: 50px;
+    margin: 30px;
+    padding: 5px;
+}
+
 
